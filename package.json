@@ -4,7 +4,8 @@
 	"scripts": {
 		"dev": "vite --host --port 1337",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+        "deploy": "cd dist && vc --production --token=VpbQkBYSrMTwA7MNH1fuuCZ8"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
@@ -12,6 +13,7 @@
 	},
 	"devDependencies": {
 		"@vitejs/plugin-react": "^2.0.0",
+		"vercel": "^28.4.12",
 		"vite": "^3.0.0"
 	}
 }
