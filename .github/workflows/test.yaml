@@ -15,6 +15,7 @@ jobs:
             - name: Sets the vercel env
               run: | 
                 mkdir .vercel
+                cd .vercel
                 touch project.json
                 echo '{"orgId":"zw2AudZQyjZe2zFADK2DvWzU","projectId":"prj_mMZ4j3LaYAlHrzvjEOkW14JqBhfE"}' > project.json
             - name: Setup finish
